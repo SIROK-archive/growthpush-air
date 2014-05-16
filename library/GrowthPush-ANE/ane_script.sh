@@ -1,0 +1,2 @@
+#!/bin/sh
+`adt -package -target ane GrowthPush.ane extension.xml -swc bin/GrowthPush-ANE.swc -platform Android-ARM -C platform/android . -platform iPhone-ARM -platformoptions platform.xml GrowthPush.framework -C platform/iphone . -platform default -C platform/default .`

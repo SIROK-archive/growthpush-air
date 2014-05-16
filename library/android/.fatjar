@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Jan 09 19:05:52 JST 2014
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=GrowthPush-ANE.jar
+manifest.mergeall=true
+manifest.mainclass=
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=<po|GrowthPush-ANE>~.gitignore;<jar|FlashRuntimeExtensions.jar>;<jar|android-support-v4.jar>;<jar|google-play-services.jar>
+includes=
