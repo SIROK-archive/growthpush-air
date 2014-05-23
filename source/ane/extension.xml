@@ -1,4 +1,4 @@
-<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
 	<id>com.growthpush.ane</id>
 	<versionNumber>1.0.0</versionNumber>
 	<name>
@@ -7,26 +7,18 @@
 	<platforms>
 		<platform name="Android-ARM">
 			<applicationDeployment>
-				<nativeLibrary>GrowthPush-ANE.jar</nativeLibrary>
+				<nativeLibrary>growthpushane.jar</nativeLibrary>
 				<initializer>com.growthpush.ane.GrowthPushExtension</initializer>
 				<finalizer>com.growthpush.ane.GrowthPushExtension</finalizer>
 			</applicationDeployment>
 		</platform>
 		<platform name="iPhone-ARM">
 			<applicationDeployment>
-				<nativeLibrary>libGrowthPush-ANE-iOS.a</nativeLibrary>
+				<nativeLibrary>libGrowthPushANE.a</nativeLibrary>
 				<initializer>GPAneExtInitializer</initializer>
 				<finalizer>GPAneExtFinalizer</finalizer>
 			</applicationDeployment>
 		</platform>
-		<!--  <platform name="iPhone-x86">
-			<applicationDeployment>
-				<nativeLibrary>libGrowthPush-ANE-iOS.a</nativeLibrary>
-				<initializer>ExtInitializer</initializer>
-				<finalizer>ExtFinalizer</finalizer>
-			</applicationDeployment>
-		</platform>
-		-->
 		<platform name="default">
 			<applicationDeployment />
 		</platform>
