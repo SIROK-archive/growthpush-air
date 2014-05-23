@@ -1,0 +1,6 @@
+ <platform xmlns="http://ns.adobe.com/air/extension/4.0"> 
+    <packagedDependencies> 
+    	<packagedDependency>platform/android/android-support-v4.jar</packagedDependency> 
+    	<packagedDependency>platform/android/google-play-services.jar</packagedDependency> 
+	</packagedDependencies> 
+</platform>
