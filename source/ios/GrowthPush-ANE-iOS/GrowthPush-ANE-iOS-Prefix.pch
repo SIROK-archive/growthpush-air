@@ -1,9 +1,0 @@
-//
-// Prefix header for all source files of the 'GrowthPush-ANE-iOS' target in the 'GrowthPush-ANE-iOS' project
-//
-
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#endif
-#import <GrowthPush/GrowthPush.h>

@@ -1,4 +1,3 @@
-// ActionScript file
 package com.growthpush.ane
 {
 	import flash.external.ExtensionContext;
@@ -22,14 +21,10 @@ package com.growthpush.ane
 			return instance;
 		}
 		
-		public function EasyGrowthPush(applicationId:int, secret:String, environment:String, debug:Boolean):void
-		{
-			context.call("EasyGrowthPush", applicationId, secret, environment, debug);
-		}
-		
-		public function initialize(applicationId:int, secret:String, environment:String, debug:Boolean):void
+		public function initialize(applicationId:int, secret:String, environment:String, debug:Boolean):GrowthPush
 		{
 			context.call("initialize", applicationId, secret, environment, debug);
+			return instance;
 		}
 		
 		public function register(senderId:String = null):void

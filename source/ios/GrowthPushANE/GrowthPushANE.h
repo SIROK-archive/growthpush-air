@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "FlashRuntimeExtensions.h"
-#import <GrowthPush/GrowthPush.h>
+#import "GrowthPush.h"
 
 @interface GrowthPushANE : NSObject
 
