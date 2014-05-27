@@ -30,3 +30,8 @@ UserInterfaceState.xcuserstate/
 
 target
 
+.actionScriptProperties
+*.apk
+*.p12
+
+.flexProperties
