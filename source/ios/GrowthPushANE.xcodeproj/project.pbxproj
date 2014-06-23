@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1338A39192F15BD00FBED66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1338A38192F15BD00FBED66 /* Foundation.framework */; };
+		C1338A3E192F15BD00FBED66 /* GrowthPushANE.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1338A3D192F15BD00FBED66 /* GrowthPushANE.h */; };
+		C1338A40192F15BD00FBED66 /* GrowthPushANE.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A3F192F15BD00FBED66 /* GrowthPushANE.m */; };
+		C1338A47192F15BE00FBED66 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1338A46192F15BE00FBED66 /* XCTest.framework */; };
+		C1338A48192F15BE00FBED66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1338A38192F15BD00FBED66 /* Foundation.framework */; };
+		C1338A4D192F15BE00FBED66 /* libGrowthPushANE.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1338A35192F15BD00FBED66 /* libGrowthPushANE.a */; };
+		C1338A53192F15BE00FBED66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1338A51192F15BE00FBED66 /* InfoPlist.strings */; };
+		C1338A55192F15BE00FBED66 /* GrowthPushANETests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A54192F15BE00FBED66 /* GrowthPushANETests.m */; };
+		C1338A93192F166300FBED66 /* EasyGrowthPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A5F192F166300FBED66 /* EasyGrowthPush.m */; };
+		C1338A94192F166300FBED66 /* EasyGrowthPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A5F192F166300FBED66 /* EasyGrowthPush.m */; };
+		C1338A95192F166300FBED66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C1338A61192F166300FBED66 /* InfoPlist.strings */; };
+		C1338A96192F166300FBED66 /* GPAppDelegateWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A64192F166300FBED66 /* GPAppDelegateWrapper.m */; };
+		C1338A97192F166300FBED66 /* GPAppDelegateWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A64192F166300FBED66 /* GPAppDelegateWrapper.m */; };
+		C1338A98192F166300FBED66 /* GPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A67192F166300FBED66 /* GPClient.m */; };
+		C1338A99192F166300FBED66 /* GPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A67192F166300FBED66 /* GPClient.m */; };
+		C1338A9A192F166300FBED66 /* GPClientService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A69192F166300FBED66 /* GPClientService.m */; };
+		C1338A9B192F166300FBED66 /* GPClientService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A69192F166300FBED66 /* GPClientService.m */; };
+		C1338A9C192F166300FBED66 /* GPDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A6B192F166300FBED66 /* GPDateUtils.m */; };
+		C1338A9D192F166300FBED66 /* GPDateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A6B192F166300FBED66 /* GPDateUtils.m */; };
+		C1338A9E192F166300FBED66 /* GPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A6D192F166300FBED66 /* GPDevice.m */; };
+		C1338A9F192F166300FBED66 /* GPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A6D192F166300FBED66 /* GPDevice.m */; };
+		C1338AA0192F166300FBED66 /* GPDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A6F192F166300FBED66 /* GPDomain.m */; };
+		C1338AA1192F166300FBED66 /* GPDomain.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A6F192F166300FBED66 /* GPDomain.m */; };
+		C1338AA2192F166300FBED66 /* GPEnvironmentUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A72192F166300FBED66 /* GPEnvironmentUtils.m */; };
+		C1338AA3192F166300FBED66 /* GPEnvironmentUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A72192F166300FBED66 /* GPEnvironmentUtils.m */; };
+		C1338AA4192F166300FBED66 /* GPEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A74192F166300FBED66 /* GPEvent.m */; };
+		C1338AA5192F166300FBED66 /* GPEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A74192F166300FBED66 /* GPEvent.m */; };
+		C1338AA6192F166300FBED66 /* GPEventService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A76192F166300FBED66 /* GPEventService.m */; };
+		C1338AA7192F166300FBED66 /* GPEventService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A76192F166300FBED66 /* GPEventService.m */; };
+		C1338AA8192F166300FBED66 /* GPHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A78192F166300FBED66 /* GPHttpClient.m */; };
+		C1338AA9192F166300FBED66 /* GPHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A78192F166300FBED66 /* GPHttpClient.m */; };
+		C1338AAA192F166300FBED66 /* GPHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A7A192F166300FBED66 /* GPHTTPOperation.m */; };
+		C1338AAB192F166300FBED66 /* GPHTTPOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A7A192F166300FBED66 /* GPHTTPOperation.m */; };
+		C1338AAC192F166300FBED66 /* GPHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A7C192F166300FBED66 /* GPHttpRequest.m */; };
+		C1338AAD192F166300FBED66 /* GPHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A7C192F166300FBED66 /* GPHttpRequest.m */; };
+		C1338AAE192F166300FBED66 /* GPHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A7E192F166300FBED66 /* GPHttpResponse.m */; };
+		C1338AAF192F166300FBED66 /* GPHttpResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A7E192F166300FBED66 /* GPHttpResponse.m */; };
+		C1338AB0192F166300FBED66 /* GPHttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A80192F166300FBED66 /* GPHttpUtils.m */; };
+		C1338AB1192F166300FBED66 /* GPHttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A80192F166300FBED66 /* GPHttpUtils.m */; };
+		C1338AB2192F166300FBED66 /* GPOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A83192F166300FBED66 /* GPOSUtils.m */; };
+		C1338AB3192F166300FBED66 /* GPOSUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A83192F166300FBED66 /* GPOSUtils.m */; };
+		C1338AB4192F166300FBED66 /* GPPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A85192F166300FBED66 /* GPPreference.m */; };
+		C1338AB5192F166300FBED66 /* GPPreference.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A85192F166300FBED66 /* GPPreference.m */; };
+		C1338AB6192F166300FBED66 /* GPRequestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A87192F166300FBED66 /* GPRequestMethod.m */; };
+		C1338AB7192F166300FBED66 /* GPRequestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A87192F166300FBED66 /* GPRequestMethod.m */; };
+		C1338AB8192F166300FBED66 /* GPService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A89192F166300FBED66 /* GPService.m */; };
+		C1338AB9192F166300FBED66 /* GPService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A89192F166300FBED66 /* GPService.m */; };
+		C1338ABA192F166300FBED66 /* GPTagService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A8B192F166300FBED66 /* GPTagService.m */; };
+		C1338ABB192F166300FBED66 /* GPTagService.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A8B192F166300FBED66 /* GPTagService.m */; };
+		C1338ABC192F166300FBED66 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A8E192F166300FBED66 /* GPViewController.m */; };
+		C1338ABD192F166300FBED66 /* GPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A8E192F166300FBED66 /* GPViewController.m */; };
+		C1338ABE192F166300FBED66 /* GrowthPush-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C1338A8F192F166300FBED66 /* GrowthPush-Info.plist */; };
+		C1338ABF192F166300FBED66 /* GrowthPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A92192F166300FBED66 /* GrowthPush.m */; };
+		C1338AC0192F166300FBED66 /* GrowthPush.m in Sources */ = {isa = PBXBuildFile; fileRef = C1338A92192F166300FBED66 /* GrowthPush.m */; };
+		C1338AC3192F16DA00FBED66 /* FlashRuntimeExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C1338AC2192F168A00FBED66 /* FlashRuntimeExtensions.h */; };
+		C1338AC5192F174900FBED66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1338AC4192F174900FBED66 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1338A4B192F15BE00FBED66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1338A2D192F15BD00FBED66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1338A34192F15BD00FBED66;
+			remoteInfo = GrowthPushANE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C1338A33192F15BD00FBED66 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C1338AC3192F16DA00FBED66 /* FlashRuntimeExtensions.h in CopyFiles */,
+				C1338A3E192F15BD00FBED66 /* GrowthPushANE.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C1338A35192F15BD00FBED66 /* libGrowthPushANE.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libGrowthPushANE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1338A38192F15BD00FBED66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C1338A3C192F15BD00FBED66 /* GrowthPushANE-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GrowthPushANE-Prefix.pch"; sourceTree = "<group>"; };
+		C1338A3D192F15BD00FBED66 /* GrowthPushANE.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GrowthPushANE.h; sourceTree = "<group>"; };
+		C1338A3F192F15BD00FBED66 /* GrowthPushANE.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowthPushANE.m; sourceTree = "<group>"; };
+		C1338A45192F15BE00FBED66 /* GrowthPushANETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrowthPushANETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1338A46192F15BE00FBED66 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C1338A50192F15BE00FBED66 /* GrowthPushANETests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GrowthPushANETests-Info.plist"; sourceTree = "<group>"; };
+		C1338A52192F15BE00FBED66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1338A54192F15BE00FBED66 /* GrowthPushANETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrowthPushANETests.m; sourceTree = "<group>"; };
+		C1338A5F192F166300FBED66 /* EasyGrowthPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyGrowthPush.m; sourceTree = "<group>"; };
+		C1338A60192F166300FBED66 /* EGPOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGPOption.h; sourceTree = "<group>"; };
+		C1338A62192F166300FBED66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C1338A63192F166300FBED66 /* GPAppDelegateWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAppDelegateWrapper.h; sourceTree = "<group>"; };
+		C1338A64192F166300FBED66 /* GPAppDelegateWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAppDelegateWrapper.m; sourceTree = "<group>"; };
+		C1338A65192F166300FBED66 /* GPAppDelegateWrapperDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAppDelegateWrapperDelegate.h; sourceTree = "<group>"; };
+		C1338A66192F166300FBED66 /* GPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPClient.h; sourceTree = "<group>"; };
+		C1338A67192F166300FBED66 /* GPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPClient.m; sourceTree = "<group>"; };
+		C1338A68192F166300FBED66 /* GPClientService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPClientService.h; sourceTree = "<group>"; };
+		C1338A69192F166300FBED66 /* GPClientService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPClientService.m; sourceTree = "<group>"; };
+		C1338A6A192F166300FBED66 /* GPDateUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDateUtils.h; sourceTree = "<group>"; };
+		C1338A6B192F166300FBED66 /* GPDateUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDateUtils.m; sourceTree = "<group>"; };
+		C1338A6C192F166300FBED66 /* GPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDevice.h; sourceTree = "<group>"; };
+		C1338A6D192F166300FBED66 /* GPDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDevice.m; sourceTree = "<group>"; };
+		C1338A6E192F166300FBED66 /* GPDomain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPDomain.h; sourceTree = "<group>"; };
+		C1338A6F192F166300FBED66 /* GPDomain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPDomain.m; sourceTree = "<group>"; };
+		C1338A70192F166300FBED66 /* GPEnvironment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPEnvironment.h; sourceTree = "<group>"; };
+		C1338A71192F166300FBED66 /* GPEnvironmentUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPEnvironmentUtils.h; sourceTree = "<group>"; };
+		C1338A72192F166300FBED66 /* GPEnvironmentUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPEnvironmentUtils.m; sourceTree = "<group>"; };
+		C1338A73192F166300FBED66 /* GPEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPEvent.h; sourceTree = "<group>"; };
+		C1338A74192F166300FBED66 /* GPEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPEvent.m; sourceTree = "<group>"; };
+		C1338A75192F166300FBED66 /* GPEventService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPEventService.h; sourceTree = "<group>"; };
+		C1338A76192F166300FBED66 /* GPEventService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPEventService.m; sourceTree = "<group>"; };
+		C1338A77192F166300FBED66 /* GPHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHttpClient.h; sourceTree = "<group>"; };
+		C1338A78192F166300FBED66 /* GPHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHttpClient.m; sourceTree = "<group>"; };
+		C1338A79192F166300FBED66 /* GPHTTPOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHTTPOperation.h; sourceTree = "<group>"; };
+		C1338A7A192F166300FBED66 /* GPHTTPOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHTTPOperation.m; sourceTree = "<group>"; };
+		C1338A7B192F166300FBED66 /* GPHttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHttpRequest.h; sourceTree = "<group>"; };
+		C1338A7C192F166300FBED66 /* GPHttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHttpRequest.m; sourceTree = "<group>"; };
+		C1338A7D192F166300FBED66 /* GPHttpResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHttpResponse.h; sourceTree = "<group>"; };
+		C1338A7E192F166300FBED66 /* GPHttpResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHttpResponse.m; sourceTree = "<group>"; };
+		C1338A7F192F166300FBED66 /* GPHttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPHttpUtils.h; sourceTree = "<group>"; };
+		C1338A80192F166300FBED66 /* GPHttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPHttpUtils.m; sourceTree = "<group>"; };
+		C1338A81192F166300FBED66 /* GPOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPOS.h; sourceTree = "<group>"; };
+		C1338A82192F166300FBED66 /* GPOSUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPOSUtils.h; sourceTree = "<group>"; };
+		C1338A83192F166300FBED66 /* GPOSUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPOSUtils.m; sourceTree = "<group>"; };
+		C1338A84192F166300FBED66 /* GPPreference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPPreference.h; sourceTree = "<group>"; };
+		C1338A85192F166300FBED66 /* GPPreference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPPreference.m; sourceTree = "<group>"; };
+		C1338A86192F166300FBED66 /* GPRequestMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPRequestMethod.h; sourceTree = "<group>"; };
+		C1338A87192F166300FBED66 /* GPRequestMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPRequestMethod.m; sourceTree = "<group>"; };
+		C1338A88192F166300FBED66 /* GPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPService.h; sourceTree = "<group>"; };
+		C1338A89192F166300FBED66 /* GPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPService.m; sourceTree = "<group>"; };
+		C1338A8A192F166300FBED66 /* GPTagService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPTagService.h; sourceTree = "<group>"; };
+		C1338A8B192F166300FBED66 /* GPTagService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPTagService.m; sourceTree = "<group>"; };
+		C1338A8C192F166300FBED66 /* GPUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUtils.h; sourceTree = "<group>"; };
+		C1338A8D192F166300FBED66 /* GPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPViewController.h; sourceTree = "<group>"; };
+		C1338A8E192F166300FBED66 /* GPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPViewController.m; sourceTree = "<group>"; };
+		C1338A8F192F166300FBED66 /* GrowthPush-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GrowthPush-Info.plist"; sourceTree = "<group>"; };
+		C1338A90192F166300FBED66 /* GrowthPush-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GrowthPush-Prefix.pch"; sourceTree = "<group>"; };
+		C1338A91192F166300FBED66 /* GrowthPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrowthPush.h; sourceTree = "<group>"; };
+		C1338A92192F166300FBED66 /* GrowthPush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrowthPush.m; sourceTree = "<group>"; };
+		C1338AC1192F167400FBED66 /* GPAppDelegateWrapperDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPAppDelegateWrapperDelegate.h; sourceTree = "<group>"; };
+		C1338AC2192F168A00FBED66 /* FlashRuntimeExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlashRuntimeExtensions.h; sourceTree = "<group>"; };
+		C1338AC4192F174900FBED66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1338A32192F15BD00FBED66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1338AC5192F174900FBED66 /* UIKit.framework in Frameworks */,
+				C1338A39192F15BD00FBED66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1338A42192F15BE00FBED66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1338A47192F15BE00FBED66 /* XCTest.framework in Frameworks */,
+				C1338A48192F15BE00FBED66 /* Foundation.framework in Frameworks */,
+				C1338A4D192F15BE00FBED66 /* libGrowthPushANE.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1338A2C192F15BD00FBED66 = {
+			isa = PBXGroup;
+			children = (
+				C1338A5E192F166300FBED66 /* GrowthPush */,
+				C1338A3A192F15BD00FBED66 /* GrowthPushANE */,
+				C1338A4E192F15BE00FBED66 /* GrowthPushANETests */,
+				C1338A37192F15BD00FBED66 /* Frameworks */,
+				C1338A36192F15BD00FBED66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1338A36192F15BD00FBED66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1338A35192F15BD00FBED66 /* libGrowthPushANE.a */,
+				C1338A45192F15BE00FBED66 /* GrowthPushANETests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1338A37192F15BD00FBED66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1338AC4192F174900FBED66 /* UIKit.framework */,
+				C1338A38192F15BD00FBED66 /* Foundation.framework */,
+				C1338A46192F15BE00FBED66 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1338A3A192F15BD00FBED66 /* GrowthPushANE */ = {
+			isa = PBXGroup;
+			children = (
+				C1338AC2192F168A00FBED66 /* FlashRuntimeExtensions.h */,
+				C1338AC1192F167400FBED66 /* GPAppDelegateWrapperDelegate.h */,
+				C1338A3D192F15BD00FBED66 /* GrowthPushANE.h */,
+				C1338A3F192F15BD00FBED66 /* GrowthPushANE.m */,
+				C1338A3B192F15BD00FBED66 /* Supporting Files */,
+			);
+			path = GrowthPushANE;
+			sourceTree = "<group>";
+		};
+		C1338A3B192F15BD00FBED66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1338A3C192F15BD00FBED66 /* GrowthPushANE-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1338A4E192F15BE00FBED66 /* GrowthPushANETests */ = {
+			isa = PBXGroup;
+			children = (
+				C1338A54192F15BE00FBED66 /* GrowthPushANETests.m */,
+				C1338A4F192F15BE00FBED66 /* Supporting Files */,
+			);
+			path = GrowthPushANETests;
+			sourceTree = "<group>";
+		};
+		C1338A4F192F15BE00FBED66 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1338A50192F15BE00FBED66 /* GrowthPushANETests-Info.plist */,
+				C1338A51192F15BE00FBED66 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C1338A5E192F166300FBED66 /* GrowthPush */ = {
+			isa = PBXGroup;
+			children = (
+				C1338A5F192F166300FBED66 /* EasyGrowthPush.m */,
+				C1338A60192F166300FBED66 /* EGPOption.h */,
+				C1338A61192F166300FBED66 /* InfoPlist.strings */,
+				C1338A63192F166300FBED66 /* GPAppDelegateWrapper.h */,
+				C1338A64192F166300FBED66 /* GPAppDelegateWrapper.m */,
+				C1338A65192F166300FBED66 /* GPAppDelegateWrapperDelegate.h */,
+				C1338A66192F166300FBED66 /* GPClient.h */,
+				C1338A67192F166300FBED66 /* GPClient.m */,
+				C1338A68192F166300FBED66 /* GPClientService.h */,
+				C1338A69192F166300FBED66 /* GPClientService.m */,
+				C1338A6A192F166300FBED66 /* GPDateUtils.h */,
+				C1338A6B192F166300FBED66 /* GPDateUtils.m */,
+				C1338A6C192F166300FBED66 /* GPDevice.h */,
+				C1338A6D192F166300FBED66 /* GPDevice.m */,
+				C1338A6E192F166300FBED66 /* GPDomain.h */,
+				C1338A6F192F166300FBED66 /* GPDomain.m */,
+				C1338A70192F166300FBED66 /* GPEnvironment.h */,
+				C1338A71192F166300FBED66 /* GPEnvironmentUtils.h */,
+				C1338A72192F166300FBED66 /* GPEnvironmentUtils.m */,
+				C1338A73192F166300FBED66 /* GPEvent.h */,
+				C1338A74192F166300FBED66 /* GPEvent.m */,
+				C1338A75192F166300FBED66 /* GPEventService.h */,
+				C1338A76192F166300FBED66 /* GPEventService.m */,
+				C1338A77192F166300FBED66 /* GPHttpClient.h */,
+				C1338A78192F166300FBED66 /* GPHttpClient.m */,
+				C1338A79192F166300FBED66 /* GPHTTPOperation.h */,
+				C1338A7A192F166300FBED66 /* GPHTTPOperation.m */,
+				C1338A7B192F166300FBED66 /* GPHttpRequest.h */,
+				C1338A7C192F166300FBED66 /* GPHttpRequest.m */,
+				C1338A7D192F166300FBED66 /* GPHttpResponse.h */,
+				C1338A7E192F166300FBED66 /* GPHttpResponse.m */,
+				C1338A7F192F166300FBED66 /* GPHttpUtils.h */,
+				C1338A80192F166300FBED66 /* GPHttpUtils.m */,
+				C1338A81192F166300FBED66 /* GPOS.h */,
+				C1338A82192F166300FBED66 /* GPOSUtils.h */,
+				C1338A83192F166300FBED66 /* GPOSUtils.m */,
+				C1338A84192F166300FBED66 /* GPPreference.h */,
+				C1338A85192F166300FBED66 /* GPPreference.m */,
+				C1338A86192F166300FBED66 /* GPRequestMethod.h */,
+				C1338A87192F166300FBED66 /* GPRequestMethod.m */,
+				C1338A88192F166300FBED66 /* GPService.h */,
+				C1338A89192F166300FBED66 /* GPService.m */,
+				C1338A8A192F166300FBED66 /* GPTagService.h */,
+				C1338A8B192F166300FBED66 /* GPTagService.m */,
+				C1338A8C192F166300FBED66 /* GPUtils.h */,
+				C1338A8D192F166300FBED66 /* GPViewController.h */,
+				C1338A8E192F166300FBED66 /* GPViewController.m */,
+				C1338A8F192F166300FBED66 /* GrowthPush-Info.plist */,
+				C1338A90192F166300FBED66 /* GrowthPush-Prefix.pch */,
+				C1338A91192F166300FBED66 /* GrowthPush.h */,
+				C1338A92192F166300FBED66 /* GrowthPush.m */,
+			);
+			path = GrowthPush;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1338A34192F15BD00FBED66 /* GrowthPushANE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1338A58192F15BE00FBED66 /* Build configuration list for PBXNativeTarget "GrowthPushANE" */;
+			buildPhases = (
+				C1338A31192F15BD00FBED66 /* Sources */,
+				C1338A32192F15BD00FBED66 /* Frameworks */,
+				C1338A33192F15BD00FBED66 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GrowthPushANE;
+			productName = GrowthPushANE;
+			productReference = C1338A35192F15BD00FBED66 /* libGrowthPushANE.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C1338A44192F15BE00FBED66 /* GrowthPushANETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1338A5B192F15BE00FBED66 /* Build configuration list for PBXNativeTarget "GrowthPushANETests" */;
+			buildPhases = (
+				C1338A41192F15BE00FBED66 /* Sources */,
+				C1338A42192F15BE00FBED66 /* Frameworks */,
+				C1338A43192F15BE00FBED66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1338A4C192F15BE00FBED66 /* PBXTargetDependency */,
+			);
+			name = GrowthPushANETests;
+			productName = GrowthPushANETests;
+			productReference = C1338A45192F15BE00FBED66 /* GrowthPushANETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1338A2D192F15BD00FBED66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = SIROK;
+			};
+			buildConfigurationList = C1338A30192F15BD00FBED66 /* Build configuration list for PBXProject "GrowthPushANE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C1338A2C192F15BD00FBED66;
+			productRefGroup = C1338A36192F15BD00FBED66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1338A34192F15BD00FBED66 /* GrowthPushANE */,
+				C1338A44192F15BE00FBED66 /* GrowthPushANETests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1338A43192F15BE00FBED66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1338A53192F15BE00FBED66 /* InfoPlist.strings in Resources */,
+				C1338ABE192F166300FBED66 /* GrowthPush-Info.plist in Resources */,
+				C1338A95192F166300FBED66 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1338A31192F15BD00FBED66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1338AB0192F166300FBED66 /* GPHttpUtils.m in Sources */,
+				C1338AAC192F166300FBED66 /* GPHttpRequest.m in Sources */,
+				C1338A9C192F166300FBED66 /* GPDateUtils.m in Sources */,
+				C1338AA4192F166300FBED66 /* GPEvent.m in Sources */,
+				C1338A9A192F166300FBED66 /* GPClientService.m in Sources */,
+				C1338ABC192F166300FBED66 /* GPViewController.m in Sources */,
+				C1338ABA192F166300FBED66 /* GPTagService.m in Sources */,
+				C1338AB6192F166300FBED66 /* GPRequestMethod.m in Sources */,
+				C1338AB4192F166300FBED66 /* GPPreference.m in Sources */,
+				C1338AA8192F166300FBED66 /* GPHttpClient.m in Sources */,
+				C1338A9E192F166300FBED66 /* GPDevice.m in Sources */,
+				C1338A96192F166300FBED66 /* GPAppDelegateWrapper.m in Sources */,
+				C1338AA2192F166300FBED66 /* GPEnvironmentUtils.m in Sources */,
+				C1338AA0192F166300FBED66 /* GPDomain.m in Sources */,
+				C1338AA6192F166300FBED66 /* GPEventService.m in Sources */,
+				C1338A93192F166300FBED66 /* EasyGrowthPush.m in Sources */,
+				C1338AAE192F166300FBED66 /* GPHttpResponse.m in Sources */,
+				C1338A40192F15BD00FBED66 /* GrowthPushANE.m in Sources */,
+				C1338AAA192F166300FBED66 /* GPHTTPOperation.m in Sources */,
+				C1338ABF192F166300FBED66 /* GrowthPush.m in Sources */,
+				C1338AB2192F166300FBED66 /* GPOSUtils.m in Sources */,
+				C1338AB8192F166300FBED66 /* GPService.m in Sources */,
+				C1338A98192F166300FBED66 /* GPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1338A41192F15BE00FBED66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1338AB1192F166300FBED66 /* GPHttpUtils.m in Sources */,
+				C1338AAD192F166300FBED66 /* GPHttpRequest.m in Sources */,
+				C1338A9D192F166300FBED66 /* GPDateUtils.m in Sources */,
+				C1338AA5192F166300FBED66 /* GPEvent.m in Sources */,
+				C1338A9B192F166300FBED66 /* GPClientService.m in Sources */,
+				C1338ABD192F166300FBED66 /* GPViewController.m in Sources */,
+				C1338ABB192F166300FBED66 /* GPTagService.m in Sources */,
+				C1338AB7192F166300FBED66 /* GPRequestMethod.m in Sources */,
+				C1338AB5192F166300FBED66 /* GPPreference.m in Sources */,
+				C1338AA9192F166300FBED66 /* GPHttpClient.m in Sources */,
+				C1338A9F192F166300FBED66 /* GPDevice.m in Sources */,
+				C1338A97192F166300FBED66 /* GPAppDelegateWrapper.m in Sources */,
+				C1338AA3192F166300FBED66 /* GPEnvironmentUtils.m in Sources */,
+				C1338AA1192F166300FBED66 /* GPDomain.m in Sources */,
+				C1338AA7192F166300FBED66 /* GPEventService.m in Sources */,
+				C1338A94192F166300FBED66 /* EasyGrowthPush.m in Sources */,
+				C1338AAF192F166300FBED66 /* GPHttpResponse.m in Sources */,
+				C1338A55192F15BE00FBED66 /* GrowthPushANETests.m in Sources */,
+				C1338AAB192F166300FBED66 /* GPHTTPOperation.m in Sources */,
+				C1338AC0192F166300FBED66 /* GrowthPush.m in Sources */,
+				C1338AB3192F166300FBED66 /* GPOSUtils.m in Sources */,
+				C1338AB9192F166300FBED66 /* GPService.m in Sources */,
+				C1338A99192F166300FBED66 /* GPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1338A4C192F15BE00FBED66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1338A34192F15BD00FBED66 /* GrowthPushANE */;
+			targetProxy = C1338A4B192F15BE00FBED66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1338A51192F15BE00FBED66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1338A52192F15BE00FBED66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C1338A61192F166300FBED66 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1338A62192F166300FBED66 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1338A56192F15BE00FBED66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C1338A57192F15BE00FBED66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1338A59192F15BE00FBED66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GrowthPushANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowthPushANE/GrowthPushANE-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C1338A5A192F15BE00FBED66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/GrowthPushANE.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowthPushANE/GrowthPushANE-Prefix.pch";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C1338A5C192F15BE00FBED66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowthPushANE/GrowthPushANE-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GrowthPushANETests/GrowthPushANETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C1338A5D192F15BE00FBED66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GrowthPushANE/GrowthPushANE-Prefix.pch";
+				INFOPLIST_FILE = "GrowthPushANETests/GrowthPushANETests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1338A30192F15BD00FBED66 /* Build configuration list for PBXProject "GrowthPushANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1338A56192F15BE00FBED66 /* Debug */,
+				C1338A57192F15BE00FBED66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1338A58192F15BE00FBED66 /* Build configuration list for PBXNativeTarget "GrowthPushANE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1338A59192F15BE00FBED66 /* Debug */,
+				C1338A5A192F15BE00FBED66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1338A5B192F15BE00FBED66 /* Build configuration list for PBXNativeTarget "GrowthPushANETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1338A5C192F15BE00FBED66 /* Debug */,
+				C1338A5D192F15BE00FBED66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1338A2D192F15BD00FBED66 /* Project object */;
+}

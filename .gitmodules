@@ -1,0 +1,6 @@
+[submodule "submodules/growthpush-ios"]
+	path = submodules/growthpush-ios
+	url = git@github.com:SIROK/growthpush-ios.git
+[submodule "submodules/growthpush-android"]
+	path = submodules/growthpush-android
+	url = git@github.com:SIROK/growthpush-android.git
