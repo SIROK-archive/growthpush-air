@@ -1,6 +1,8 @@
 GrowthPush-AIR
 ==============
 
+:rotating_light: **This SDK is no longer maintained** :rotating_light:  
+
 Growth Push SDK for Adobe AIR
 
 Support SDK Version 13.0 more.
